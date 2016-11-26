@@ -909,18 +909,24 @@
 		}
 
 			img {
-				border-top: 2px solid #000000;
-				border-left:2px solid #000000;
-				border-right: 2px solid #000000;
-				border-bottom: 2px solid #000000;
+			transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
 
 
   }
 	img:hover {
-		border-top: 0px solid #000000;
-		border-left:0px solid #000000;
-		border-right: 0px solid #000000;
-		border-bottom: 0px solid #000000;
+		filter: contrast(200%);
+
+	-webkit-filter: contrast(200%);
+
+	 -moz-filter: contrast(200%);
+
+	-o-filter: contrast(200%);
+	transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-webkit-transition:all 0.5s ease-in-out;
+
 
 
 }
@@ -1124,13 +1130,11 @@
 /* Footer */
 
 	#footer {
-		color: #ccc;
-		color: rgba(255, 255, 255, 0.45);
+
 	}
 
 		#footer a {
-			color: #ddd;
-			color: rgba(255, 255, 255, 0.65);
+			color: #ffffff;
 			-moz-transition: color .25s ease-in-out;
 			-webkit-transition: color .25s ease-in-out;
 			-ms-transition: color .25s ease-in-out;
@@ -1266,8 +1270,8 @@
 				#nav a {
 					font-size: 2.5em;
 					margin: 0 0.25em 0 0.25em;
-					opacity: 0.35;
-					outline: 0;
+					opacity: 0.8;
+					outline: 1;
 					-moz-transition: opacity .25s ease-in-out;
 					-webkit-transition: opacity .25s ease-in-out;
 					-ms-transition: opacity .25s ease-in-out;
