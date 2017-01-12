@@ -62,4 +62,10 @@ footer{
 }
 h1{
 text-align :left;
+text-decoration:none;
+	
+}
+.read-more{
+text-align :left;
+text-decoration:none;
 }
