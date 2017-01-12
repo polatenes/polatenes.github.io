@@ -27,13 +27,13 @@ li {
 }
 li a {
     display: block;
-    color: black;
+    color: #8d8d8d;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 li a:hover {
-    color: #8e8e8e;
+    color: #ffffff;
 }
 #main{
 	background: #ffffff;
