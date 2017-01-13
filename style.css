@@ -36,7 +36,7 @@ li a {
 li a:hover {
     color: #ffffff;
 }
-#main{
+#post{
 	background: #ffffff;
  	margin: 10px auto 50px auto;	
 	position: relative;
@@ -47,7 +47,7 @@ li a:hover {
     
     padding: 15px;
 }
-#main img{
+#post img{
   width: 100%;
   height: auto;
   
